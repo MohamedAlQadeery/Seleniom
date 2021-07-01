@@ -23,12 +23,16 @@ public  class HomePage {
 	@FindBy(name="submit_search")
 	private WebElement goButton;
 	
-        @FindBy(className = "login")
+        @FindBy(xpath = "//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")
 	private WebElement href;
         
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 	}
+
+    public HomePage() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 	
 	public SearchResultsPage searchFor(String searchTerm) {
 		keywordsField.sendKeys(searchTerm);

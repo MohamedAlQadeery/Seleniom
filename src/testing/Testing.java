@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
  *
- * @author Gf63
+ * @author Gf63\
  */
 public class Testing {
 
@@ -47,7 +47,7 @@ public class Testing {
         System.setProperty("webdriver.chrome.driver", "D:\\selenium\\chromedriver.exe");
 
         initChromeDriver();
-        
+       
         //just un comment the method for testing 
 //        searchTest();
 //        authTest();

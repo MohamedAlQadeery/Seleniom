@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Call the chrome driver and set the base url]]>
+    </line>
+    <line>
+      <![CDATA[click the sign in btn.........]]>
+    </line>
+    <line>
+      <![CDATA[checks if not registerd user can login to the system]]>
+    </line>
+    <line>
+      <![CDATA[Close the chrome driver after all the steps are done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-01T06:12:55Z" name="Testing" finished-at="2021-07-01T06:13:01Z" duration-ms="6420">
+    <groups>
+    </groups>
+    <test started-at="2021-07-01T06:12:55Z" name="TestNG tests" finished-at="2021-07-01T06:13:01Z" duration-ms="6420">
+      <class name="AuthTest">
+        <test-method is-config="true" signature="startDriver()[pri:0, instance:AuthTest@63753b6d]" started-at="2021-07-01T06:12:44Z" name="startDriver" finished-at="2021-07-01T06:12:55Z" duration-ms="11253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Call the chrome driver and set the base url]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="clickSigninButton()[pri:1, instance:AuthTest@63753b6d]" started-at="2021-07-01T06:12:55Z" name="clickSigninButton" finished-at="2021-07-01T06:12:57Z" duration-ms="2170" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[click the sign in btn.........]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickSigninButton -->
+        <test-method signature="checkIfCanLogin()[pri:2, instance:AuthTest@63753b6d]" started-at="2021-07-01T06:12:57Z" name="checkIfCanLogin" finished-at="2021-07-01T06:13:01Z" duration-ms="4241" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[checks if not registerd user can login to the system]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkIfCanLogin -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:AuthTest@63753b6d]" started-at="2021-07-01T06:13:01Z" name="closeDriver" finished-at="2021-07-01T06:13:01Z" duration-ms="44" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close the chrome driver after all the steps are done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- AuthTest -->
+    </test> <!-- TestNG tests -->
+  </suite> <!-- Testing -->
+</testng-results>
