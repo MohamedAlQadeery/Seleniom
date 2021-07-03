@@ -18,15 +18,15 @@ public class AuthenticationPage {
 
     private WebDriver driver;
 
-    @FindBy(xpath = "//*[@id=\"email\"]")
+    @FindBy(xpath = Locators.Locators.EMAIL_INPUT)
     private WebElement email_input;
-    @FindBy(xpath = "//*[@id=\"passwd\"]")
+    @FindBy(xpath = Locators.Locators.PASSWORD_INPUT)
     private WebElement password_input;
 
-     @FindBy(xpath = "//*[@id=\"SubmitLogin\"]")
+     @FindBy(xpath = Locators.Locators.SIGNIN_BUTTON)
     private WebElement signin_btn;
     
-        @FindBy(xpath = "//*[@id=\"center_column\"]/div[1]")
+        @FindBy(xpath = Locators.Locators.ALERT_LABEL)
      	private WebElement AlertLabel;
 
     public AuthenticationPage(WebDriver driver) {

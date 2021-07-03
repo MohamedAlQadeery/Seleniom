@@ -16,7 +16,7 @@ import org.openqa.selenium.support.FindBy;
 public class SearchResultsPage {
     private WebDriver driver;
 	
-	@FindBy(xpath = "//*[@id=\"center_column\"]/h1/span[1]")
+	@FindBy(xpath = Locators.Locators.TOP_RESULT_TITLE)
 	private WebElement topResultTitle;
 	
 	public SearchResultsPage(WebDriver driver) {
